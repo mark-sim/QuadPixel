@@ -7,8 +7,10 @@ bin-release/
 # Other files and folders
 .settings/
 .idea/
+target/
 
 # Executables
+*.swp
 *.iml
 *.swf
 *.air
