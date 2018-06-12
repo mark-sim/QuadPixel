@@ -41,9 +41,10 @@ public class QuadPixel {
         int blue = 0x00000011;
         int red = 0x00110000;
         int green = 0x00001100;
-        NW.setQuadrant(blue);
-        NE.setQuadrant(red);
-        SE.setQuadrant(green);
+        NW.setQuadrant(1);
+        NE.setQuadrant(1);
+        SE.setQuadrant(1);
+        SW.setQuadrant(1);
     }
 
 }
