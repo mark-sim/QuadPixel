@@ -11,7 +11,7 @@ target/
 
 # Executables
 *.swp
-*.iml
+*/*.iml
 *.swf
 *.air
 *.ipa
