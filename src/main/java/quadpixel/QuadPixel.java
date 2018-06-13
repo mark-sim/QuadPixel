@@ -1,16 +1,34 @@
 package quadpixel;
 
 import java.awt.image.BufferedImage;
+import java.util.Iterator;
+import java.util.PriorityQueue;
 
 public class QuadPixel {
     private BufferedImage m_image;
     private BufferedImage m_outputImage;
+    private PriorityQueue<Quadrant> m_priorityQueue;
+    private final int INITAL_CAPACITY = 100;
 
     public QuadPixel(BufferedImage image, String path)
     {
         m_image = image;
         m_outputImage = new BufferedImage(image.getWidth(), image.getHeight(), image.getType());
+        m_priorityQueue = new PriorityQueue<Quadrant>(INITAL_CAPACITY, new QuadrantMeanErrorComparator());
     }
+
+    public BufferedImage processImage(int leftX, int rightX, int bottomY, int topY)
+    {
+        Quadrant highestMeanErrorQuadrant = process(leftX, rightX, bottomY, topY);
+
+        while (highestMeanErrorQuadrant.getMeanError() > 50)
+        {
+            highestMeanErrorQuadrant = process(highestMeanErrorQuadrant.getLeftX(), highestMeanErrorQuadrant.getRightX(),
+                    highestMeanErrorQuadrant.getBottomY(), highestMeanErrorQuadrant.getTopY());
+        }
+        return m_outputImage;
+    }
+
 
     /**
      * First calls divideIntoQuadrants to divide the image into four quadrants.
@@ -24,15 +42,10 @@ public class QuadPixel {
      *             NW   NE
      *             SW   SE
      */
-    public BufferedImage processImage(int leftX, int rightX, int bottomY, int topY)
+    public Quadrant process(int leftX, int rightX, int bottomY, int topY)
     {
         int width = rightX - leftX + 1;
         int height = topY - bottomY + 1;
-
-        if (width < 2 && height < 2)
-        {
-            return m_outputImage;
-        }
 
         // [leftX, width/2), [bottomY, height/2)
         Quadrant NW = new Quadrant(m_image, m_outputImage, leftX, leftX + (width / 2) - 1, bottomY, bottomY + (height / 2) - 1);
@@ -43,17 +56,24 @@ public class QuadPixel {
         // [leftX, width/2), [height/2, topY]
         Quadrant SW = new Quadrant(m_image, m_outputImage, leftX, leftX + (width / 2) - 1, bottomY + (height / 2), topY);
 
+        NW.calculateSquaredMeanError(NW.averageQuadrant());
+        NE.calculateSquaredMeanError(NE.averageQuadrant());
+        SE.calculateSquaredMeanError(SE.averageQuadrant());
+        SW.calculateSquaredMeanError(SW.averageQuadrant());
+
         NW.processQuadrant();
         NE.processQuadrant();
         SE.processQuadrant();
         SW.processQuadrant();
 
-        processImage(NW.getLeftX(), NW.getRightX(), NW.getBottomY(), NW.getTopY());
-        processImage(NE.getLeftX(), NE.getRightX(), NE.getBottomY(), NE.getTopY());
-        processImage(SE.getLeftX(), SE.getRightX(), SE.getBottomY(), SE.getTopY());
-        processImage(SW.getLeftX(), SW.getRightX(), SW.getBottomY(), SW.getTopY());
+        m_priorityQueue.add(NW);
+        m_priorityQueue.add(NE);
+        m_priorityQueue.add(SE);
+        m_priorityQueue.add(SW);
 
-        return m_outputImage;
+        Quadrant highestMeanErrorQuadrant = m_priorityQueue.poll();
+
+        return highestMeanErrorQuadrant;
     }
 
 }

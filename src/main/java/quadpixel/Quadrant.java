@@ -9,6 +9,8 @@ public class Quadrant {
     private int m_rightX;
     private int m_bottomY;
     private int m_topY;
+    private int m_squaredError;
+    private int m_averageColor;
 
     public Quadrant(BufferedImage image, BufferedImage outputImage, int leftX, int rightX, int bottomY, int topY)
     {
@@ -71,7 +73,8 @@ public class Quadrant {
         int averageGreenValue = totalGreenValue / totalPixel;
         int averageBlueValue = totalBlueValue / totalPixel;
 
-        return (averageAlphaValue << 24) | (averageRedValue << 16) | (averageGreenValue << 8) | averageBlueValue;
+        m_averageColor = (averageAlphaValue << 24) | (averageRedValue << 16) | (averageGreenValue << 8) | averageBlueValue;
+        return m_averageColor;
     }
 
     /**
@@ -142,26 +145,22 @@ public class Quadrant {
         return m_topY;
     }
 
+    public int getMeanError()
+    {
+        return m_squaredError;
+    }
+
+
     /**
      * sets this quadrant to average color of all pixels in this quadrant
      * @returns returns true if quadrant needs further division, otherwise returns false
      */
-    public boolean processQuadrant()
+    public void processQuadrant()
     {
-        int averageColor = averageQuadrant();
-        if (averageColor != -1)
-        {
-            int meanError = calculateMeanError(averageColor);
-            if (meanError > 1000)
-            {
-                setQuadrant(averageColor);
-                return true;
-            }
-        }
-        return false;
+        setQuadrant(m_averageColor);
     }
 
-    public int calculateMeanError(int averageColor)
+    public void calculateSquaredMeanError(int averageColor)
     {
         int meanError = 0;
         int totalPixel = (m_rightX - m_leftX + 1) * (m_topY - m_bottomY + 1);
@@ -174,15 +173,14 @@ public class Quadrant {
         {
             for (int y=m_bottomY; y<=m_topY; ++y)
             {
-                meanError += Math.abs(meanError - (averageAlphaValue - getAlphaValue(x,y)));
-                meanError += Math.abs(meanError - (averageRedValue - getRedValue(x,y)));
-                meanError += Math.abs(meanError - (averageGreenValue - getGreenValue(x,y)));
-                meanError += Math.abs(meanError - (averageBlueValue - getBlueValue(x,y)));
+                meanError += Math.pow((averageAlphaValue - getAlphaValue(x,y)), 2);
+                meanError += Math.pow((averageRedValue - getRedValue(x,y)), 2);
+                meanError += Math.pow((averageGreenValue - getGreenValue(x,y)), 2);
+                meanError += Math.pow((averageBlueValue - getBlueValue(x,y)), 2);
             }
         }
 
-        return meanError / totalPixel;
-
+        m_squaredError = (totalPixel == 0) ? 0 : meanError / totalPixel;
     }
 
 
