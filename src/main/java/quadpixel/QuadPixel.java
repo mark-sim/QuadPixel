@@ -4,12 +4,12 @@ import java.awt.image.BufferedImage;
 
 public class QuadPixel {
     private BufferedImage m_image;
-    private int m_width;
-    private int m_height;
+    private BufferedImage m_outputImage;
 
-    public QuadPixel(BufferedImage image)
+    public QuadPixel(BufferedImage image, String path)
     {
         m_image = image;
+        m_outputImage = new BufferedImage(image.getWidth(), image.getHeight(), image.getType());
     }
 
     /**
@@ -24,27 +24,36 @@ public class QuadPixel {
      *             NW   NE
      *             SW   SE
      */
-    public void processImage(int leftX, int rightX, int bottomY, int topY)
+    public BufferedImage processImage(int leftX, int rightX, int bottomY, int topY)
     {
         int width = rightX - leftX + 1;
         int height = topY - bottomY + 1;
 
-        // [leftX, width/2), [bottomY, height/2)
-        Quadrant NW = new Quadrant(m_image, leftX, (width / 2) - 1, bottomY, (height / 2) - 1);
-        // [width/2, rightX], [bottomY, height/2)
-        Quadrant NE = new Quadrant(m_image, (width / 2), rightX, bottomY, (height / 2) - 1);
-        // [width/2, rightX], [height/2, topY]
-        Quadrant SE = new Quadrant(m_image, (width / 2), rightX, height / 2, topY);
-        // [leftX, width/2), [height/2, topY]
-        Quadrant SW = new Quadrant(m_image, leftX, (width / 2) - 1, height / 2, topY);
+        if (width < 2 && height < 2)
+        {
+            return m_outputImage;
+        }
 
-        int blue = 0x00000011;
-        int red = 0x00110000;
-        int green = 0x00001100;
-        NW.setQuadrant(1);
-        NE.setQuadrant(1);
-        SE.setQuadrant(1);
-        SW.setQuadrant(1);
+        // [leftX, width/2), [bottomY, height/2)
+        Quadrant NW = new Quadrant(m_image, m_outputImage, leftX, leftX + (width / 2) - 1, bottomY, bottomY + (height / 2) - 1);
+        // [width/2, rightX], [bottomY, height/2)
+        Quadrant NE = new Quadrant(m_image, m_outputImage, leftX + (width / 2), rightX, bottomY, bottomY + (height / 2) - 1);
+        // [width/2, rightX], [height/2, topY]
+        Quadrant SE = new Quadrant(m_image, m_outputImage, leftX + (width / 2), rightX, bottomY + (height / 2), topY);
+        // [leftX, width/2), [height/2, topY]
+        Quadrant SW = new Quadrant(m_image, m_outputImage, leftX, leftX + (width / 2) - 1, bottomY + (height / 2), topY);
+
+        NW.processQuadrant();
+        NE.processQuadrant();
+        SE.processQuadrant();
+        SW.processQuadrant();
+
+        processImage(NW.getLeftX(), NW.getRightX(), NW.getBottomY(), NW.getTopY());
+        processImage(NE.getLeftX(), NE.getRightX(), NE.getBottomY(), NE.getTopY());
+        processImage(SE.getLeftX(), SE.getRightX(), SE.getBottomY(), SE.getTopY());
+        processImage(SW.getLeftX(), SW.getRightX(), SW.getBottomY(), SW.getTopY());
+
+        return m_outputImage;
     }
 
 }

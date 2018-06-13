@@ -9,10 +9,11 @@ public class    Main
 {
     public static void main( String[] args ) throws IOException
     {
-        BufferedImage img = readImage("C:\\Users\\USER\\Desktop\\DailyTransactionTable.png");
-        QuadPixel quadPixel = new QuadPixel(img);
-        quadPixel.processImage(0, img.getWidth() - 1, 0, img.getHeight() - 1);
-        writeImage(img, "C:\\Users\\USER\\Desktop\\output.jpg", "jpg");
+        String path = "C:\\Users\\USER\\Desktop\\output images\\maxresdefault.jpg";
+        BufferedImage img = readImage(path);
+        QuadPixel quadPixel = new QuadPixel(img, path);
+        BufferedImage outputImg = quadPixel.processImage(0, img.getWidth() - 1, 0, img.getHeight() - 1);
+        writeImage(outputImg, "C:\\Users\\USER\\Desktop\\output images\\output.jpg", "jpg");
     }
 
     /**
@@ -47,7 +48,7 @@ public class    Main
 
         try
         {
-            f = new File("C:\\Users\\USER\\Desktop\\DailyTransactionTable.png");
+            f = new File(path);
             img = ImageIO.read(f);
         } catch (IOException e)
         {
