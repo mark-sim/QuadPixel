@@ -150,6 +150,11 @@ public class Quadrant {
         return m_squaredError;
     }
 
+    public int getAverageColor()
+    {
+        return m_averageColor;
+    }
+
 
     /**
      * sets this quadrant to average color of all pixels in this quadrant
@@ -180,7 +185,7 @@ public class Quadrant {
             }
         }
 
-        m_squaredError = (totalPixel == 0) ? 0 : meanError / totalPixel;
+        m_squaredError = (totalPixel == 0) ? -1 : meanError / totalPixel;
     }
 
 

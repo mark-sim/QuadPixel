@@ -9,7 +9,7 @@ public class    Main
 {
     public static void main( String[] args ) throws IOException
     {
-        String path = "C:\\Users\\USER\\Desktop\\output images\\maxresdefault.jpg";
+        String path = "C:\\Users\\USER\\Desktop\\output images\\water.jpg";
         BufferedImage img = readImage(path);
         QuadPixel quadPixel = new QuadPixel(img, path);
         BufferedImage outputImg = quadPixel.processImage(0, img.getWidth() - 1, 0, img.getHeight() - 1);
