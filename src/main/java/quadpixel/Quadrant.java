@@ -168,7 +168,9 @@ public class Quadrant {
     public void calculateSquaredMeanError(int averageColor)
     {
         int meanError = 0;
-        int totalPixel = (m_rightX - m_leftX + 1) * (m_topY - m_bottomY + 1);
+        int width = m_rightX - m_leftX + 1;
+        int height = m_topY - m_bottomY + 1;
+        int totalPixel = width * height;
         int averageAlphaValue = (averageColor >> 24) & 0xff;
         int averageRedValue = (averageColor >> 16) & 0xff;
         int averageGreenValue = (averageColor >> 8) & 0xff;
@@ -185,7 +187,9 @@ public class Quadrant {
             }
         }
 
-        m_squaredError = (totalPixel == 0) ? -1 : meanError / totalPixel;
+        boolean stop = (width < 6 && height < 6) ? true : false;
+
+        m_squaredError = (stop) ? -1 : meanError / totalPixel;
     }
 
 

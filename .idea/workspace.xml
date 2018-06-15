@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cd67b420-7a87-4345-b300-3e7510c39cea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/quadpixel/Main.class" afterPath="$PROJECT_DIR$/target/classes/quadpixel/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/quadpixel/QuadPixel.class" afterPath="$PROJECT_DIR$/target/classes/quadpixel/QuadPixel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/quadpixel/Quadrant.class" afterPath="$PROJECT_DIR$/target/classes/quadpixel/Quadrant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuadPixel2D.iml" afterPath="$PROJECT_DIR$/QuadPixel2D.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quadpixel/Main.java" afterPath="$PROJECT_DIR$/src/main/java/quadpixel/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quadpixel/QuadPixel.java" afterPath="$PROJECT_DIR$/src/main/java/quadpixel/QuadPixel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quadpixel/Quadrant.java" afterPath="$PROJECT_DIR$/src/main/java/quadpixel/Quadrant.java" />
@@ -23,8 +23,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+            <state relative-caret-position="-120">
+              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="686">
+              <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -40,21 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quadrant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Quadrant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/Quadrant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="187" column="47" lean-forward="false" selection-start-line="187" selection-start-column="47" selection-end-line="187" selection-end-column="47" />
+            <state relative-caret-position="340">
+              <caret line="189" column="47" lean-forward="false" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuadPixel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuadPixel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/QuadPixel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            <state relative-caret-position="75">
+              <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,9 +115,10 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/quadpixel/QuadrantMeanErrorComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/quadpixel/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/quadpixel/QuadPixel.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/quadpixel/Quadrant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadpixel/QuadPixel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quadpixel/Main.java" />
       </list>
     </option>
   </component>
@@ -318,12 +329,13 @@
       <updated>1528775043723</updated>
       <workItem from="1528775046605" duration="12790000" />
       <workItem from="1528862169715" duration="4269000" />
-      <workItem from="1528937450138" duration="874000" />
+      <workItem from="1528937450138" duration="1833000" />
+      <workItem from="1529029344546" duration="5648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17933000" />
+    <option name="totallyTimeSpent" value="24540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -338,7 +350,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27147403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27147403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -469,10 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/Main.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        <state relative-caret-position="686">
+          <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -488,21 +500,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/QuadPixel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-120">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/Quadrant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="187" column="47" lean-forward="false" selection-start-line="187" selection-start-column="47" selection-end-line="187" selection-end-column="47" />
+        <state relative-caret-position="340">
+          <caret line="189" column="47" lean-forward="false" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/QuadPixel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

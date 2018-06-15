@@ -2,6 +2,7 @@ package quadpixel;
 
 import java.awt.image.BufferedImage;
 import java.util.Iterator;
+import java.awt.Color;
 import java.util.PriorityQueue;
 
 public class QuadPixel {
@@ -13,15 +14,27 @@ public class QuadPixel {
     public QuadPixel(BufferedImage image, String path)
     {
         m_image = image;
-        m_outputImage = new BufferedImage(image.getWidth(), image.getHeight(), BufferedImage.TYPE_INT_RGB);
+        m_outputImage = new BufferedImage(image.getWidth(), image.getHeight(), BufferedImage.TYPE_INT_ARGB);
         m_priorityQueue = new PriorityQueue<Quadrant>(INITAL_CAPACITY, new QuadrantMeanErrorComparator());
+    }
+
+    public BufferedImage test()
+    {
+        for (int i=0; i<m_outputImage.getWidth(); ++i)
+        {
+            for (int j=0; j<m_outputImage.getHeight(); ++j)
+            {
+                m_outputImage.setRGB(i,j, 0x00000000);
+            }
+        }
+        return m_outputImage;
     }
 
     public BufferedImage processImage(int leftX, int rightX, int bottomY, int topY)
     {
         Quadrant highestMeanErrorQuadrant = process(leftX, rightX, bottomY, topY);
 
-        while (highestMeanErrorQuadrant.getMeanError() >= 0)
+        while (highestMeanErrorQuadrant.getMeanError() > 10)
         {
             highestMeanErrorQuadrant = process(highestMeanErrorQuadrant.getLeftX(), highestMeanErrorQuadrant.getRightX(),
                     highestMeanErrorQuadrant.getBottomY(), highestMeanErrorQuadrant.getTopY());
@@ -61,10 +74,9 @@ public class QuadPixel {
         SE.calculateSquaredMeanError(SE.averageQuadrant());
         SW.calculateSquaredMeanError(SW.averageQuadrant());
 
-        if (m_priorityQueue.isEmpty())
-        {
+
             setBlackLine(leftX, rightX, bottomY, topY, leftX + (width / 2), bottomY + (height / 2));
-        }
+
 
         NW.processQuadrant();
         NE.processQuadrant();
@@ -100,12 +112,12 @@ public class QuadPixel {
     {
         for (int y = bottomY; y<=topY; ++y)
         {
-            m_outputImage.setRGB(midX, y, m_image.getRGB(midX, y));
+            m_outputImage.setRGB(midX, y, 0xff000000);
         }
 
         for (int x=leftX; x<=rightX; ++x)
         {
-            m_outputImage.setRGB(x, midY, m_image.getRGB(x, midY));
+            m_outputImage.setRGB(x, midY,0xff000000);
         }
     }
 
