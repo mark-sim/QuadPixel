@@ -1,1 +1,1 @@
-web: java -jar target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies
+web: java -jar target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies.jar
