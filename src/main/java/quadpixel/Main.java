@@ -15,14 +15,14 @@ public class    Main
 
     public static void main( String[] args ) throws Exception
     {
-        String path = "C:\\Users\\USER\\Desktop\\output images\\maxresdefault.jpg";
+        String path = "images/mario.png";
         BufferedImage img = readImage(path);
         img = resize(img, Math.min(img.getHeight(), img.getWidth()), Math.min(img.getHeight(), img.getWidth()));
         //img = ScaleImage.getFasterScaledInstance(img, img.getWidth(),img.getHeight(), true);
         QuadPixel quadPixel = new QuadPixel(img, path);
         //BufferedImage outputImg = quadPixel.test();
         BufferedImage outputImg = quadPixel.processImage(0, img.getWidth() - 1, 0, img.getHeight() - 1);
-        writeImage(outputImg, "C:\\Users\\USER\\Desktop\\output images\\output.jpg", "jpg");
+        writeImage(outputImg, "images/output.jpg", "jpg");
     }
 
     public static BufferedImage resize(BufferedImage img, int newWidth, int newHeight) throws IOException
