@@ -47,13 +47,13 @@ public class QuadPixel {
             m_frame.getContentPane().add(new JLabel(new ImageIcon(m_outputImage)));
 
             m_frame.setVisible(true);
-            Thread.sleep(500);
-            highestMeanErrorQuadrant = process(highestMeanErrorQuadrant.getLeftX(), highestMeanErrorQuadrant.getRightX(),
+            Thread.sleep(50);
+
+    highestMeanErrorQuadrant = process(highestMeanErrorQuadrant.getLeftX(), highestMeanErrorQuadrant.getRightX(),
                     highestMeanErrorQuadrant.getBottomY(), highestMeanErrorQuadrant.getTopY());
         }
         return m_outputImage;
     }
-
 
     /**
      * First calls divideIntoQuadrants to divide the image into four quadrants.
