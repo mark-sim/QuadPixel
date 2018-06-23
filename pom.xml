@@ -15,7 +15,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.mark.app.AnalyzerMain</mainClass>
+                            <mainClass>quadpixel.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
