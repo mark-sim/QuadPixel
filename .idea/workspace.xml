@@ -2,126 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd67b420-7a87-4345-b300-3e7510c39cea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mario.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/mario.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/ThumbnailParameter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnailator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$BufferedImageImageSourceIterator$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$BufferedImageImageSourceIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$BufferedImageIterable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$BufferedImageIterable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$FileImageSourceIterator$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$FileImageSourceIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$InputStreamImageSourceIterator$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$InputStreamImageSourceIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$Properties.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$Property.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$Status.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$StringImageSourceIterator$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$StringImageSourceIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$URLImageSourceIterator$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder$URLImageSourceIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails$Builder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/Thumbnails.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/builders/BufferedImageBuilder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/builders/ThumbnailParameterBuilder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Canvas.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Caption.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Colorize.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Flip$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Flip$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Flip.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/ImageFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Pipeline.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Rotation$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Rotation$Rotator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Rotation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Transparency.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/filters/Watermark.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/AbsoluteSize.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Coordinate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Position.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Positions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Region.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/RelativeSize.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/geometry/Size.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/makers/FixedSizeThumbnailMaker.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/makers/ScaledThumbnailMaker.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/makers/ThumbnailMaker$ReadinessTracker.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/makers/ThumbnailMaker.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/name/ConsecutivelyNumberedFilenames$ConsecutivelyNumberedFilenamesIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/name/ConsecutivelyNumberedFilenames.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/name/Rename$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/name/Rename$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/name/Rename$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/name/Rename$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/name/Rename$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/name/Rename.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/AbstractResizer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/BicubicResizer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/BilinearResizer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/DefaultResizerFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/FixedResizerFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/NullResizer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/ProgressiveBilinearResizer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/Resizer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/ResizerFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/Resizers.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/configurations/AlphaInterpolation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/configurations/Antialiasing.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/configurations/Dithering.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/configurations/Rendering.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/configurations/ResizerConfiguration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/resizers/configurations/ScalingMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/FileThumbnailTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/SourceSinkThumbnailTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/StreamThumbnailTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/ThumbnailTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/UnsupportedFormatException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/AbstractImageSink.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/AbstractImageSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/BufferedImageSink.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/BufferedImageSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/FileImageSink.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/FileImageSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/ImageSink.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/ImageSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/InputStreamImageSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/OutputStreamImageSink.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/tasks/io/URLImageSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/util/BufferedImages.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/util/ThumbnailatorUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/util/exif/ExifFilterUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/util/exif/ExifUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/util/exif/IfdStructure.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/util/exif/IfdType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/net/coobird/thumbnailator/util/exif/Orientation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/quadpixel/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/quadpixel/QuadPixel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/quadpixel/Quadrant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/quadpixel/QuadrantMeanErrorComparator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/quadpixel/ScaleImage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mario.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/META-INF/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/META-INF/maven/net.coobird/thumbnailator/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies/META-INF/maven/net.coobird/thumbnailator/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/QuadPixel2D-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/quadpixel/Main.class" afterPath="$PROJECT_DIR$/target/classes/quadpixel/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/quadpixel/Main.java" afterPath="$PROJECT_DIR$/src/main/java/quadpixel/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -280,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/main/java/quadpixel/QuadPixel.java" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/src/main/java/quadpixel/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/quadpixel/Main.java" />
       </list>
     </option>
   </component>
@@ -494,12 +375,12 @@
       <workItem from="1528937450138" duration="1833000" />
       <workItem from="1529029344546" duration="13856000" />
       <workItem from="1529726194551" duration="1498000" />
-      <workItem from="1529730275785" duration="1662000" />
+      <workItem from="1529730275785" duration="2261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35908000" />
+    <option name="totallyTimeSpent" value="36507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
@@ -902,7 +783,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/quadpixel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

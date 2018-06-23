@@ -15,6 +15,8 @@ public class    Main
 
     public static void main( String[] args ) throws Exception
     {
+        System.out.println("HELLO WORLD");
+        /*
         String path = "images/mario.png";
         BufferedImage img = readImage(path);
         img = resize(img, Math.min(img.getHeight(), img.getWidth()), Math.min(img.getHeight(), img.getWidth()));
@@ -23,6 +25,7 @@ public class    Main
         //BufferedImage outputImg = quadPixel.test();
         BufferedImage outputImg = quadPixel.processImage(0, img.getWidth() - 1, 0, img.getHeight() - 1);
         writeImage(outputImg, "images/output.jpg", "jpg");
+        */
     }
 
     public static BufferedImage resize(BufferedImage img, int newWidth, int newHeight) throws IOException
