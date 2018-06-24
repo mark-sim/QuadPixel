@@ -13,7 +13,7 @@ public class QuadPixel {
     private JFrame m_frame;
     private final int INITAL_CAPACITY = 100;
 
-    public QuadPixel(BufferedImage image, String path)
+    public  QuadPixel(BufferedImage image, String path)
     {
         m_image = image;
         m_outputImage = new BufferedImage(image.getWidth(), image.getHeight(), BufferedImage.TYPE_INT_RGB);
