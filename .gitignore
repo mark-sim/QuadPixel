@@ -6,8 +6,9 @@ bin-release/
 
 # Other files and folders
 .settings/
-*/.idea/
-*/target/
+.idea/
+target/
+QuadPixel2D.iml
 
 # Executables
 *.swp
