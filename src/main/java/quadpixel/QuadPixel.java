@@ -47,7 +47,7 @@ public class QuadPixel {
             m_frame.getContentPane().add(new JLabel(new ImageIcon(m_outputImage)));
 
             m_frame.setVisible(true);
-            Thread.sleep(50);
+            Thread.sleep(5);
 
     highestMeanErrorQuadrant = process(highestMeanErrorQuadrant.getLeftX(), highestMeanErrorQuadrant.getRightX(),
                     highestMeanErrorQuadrant.getBottomY(), highestMeanErrorQuadrant.getTopY());

@@ -16,7 +16,9 @@ If you want to try out QuadPixel in Java (Output image has better quality), Inst
 * [JDK 1.7+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 ```
 git clone https://github.com/marksim5/QuadPixel.git
+
 mvn clean install -DskipTests
+
 java -jar target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies.jar fullPathToImage
 ```
 
