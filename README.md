@@ -26,4 +26,4 @@ java -jar target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies.jar fullPathToIm
 
 
 ### Samples
-(<a href="url"><img src="https://github.com/marksim5/QuadPixel/blob/master/sample/sol.png" align="left" height="1000" width="1000" ></a>)
+(<a href="url"><img src="https://github.com/marksim5/QuadPixel/blob/master/sample/sol.png" align="left" style="max-width:100%;" ></a>)
