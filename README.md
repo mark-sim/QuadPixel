@@ -24,6 +24,7 @@ java -jar target/QuadPixel2D-1.0-SNAPSHOT-jar-with-dependencies.jar fullPathToIm
 
 ### Animation
 
+<img src="https://github.com/marksim5/QuadPixel/blob/master/sample/apple.gif" style="max-width:100%;"/>
 
 ### Samples
 
